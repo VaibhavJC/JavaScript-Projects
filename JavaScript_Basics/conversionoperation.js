@@ -39,3 +39,28 @@ console.log(typeof boolToNumber);
 
 //"" => false
 //"name" => true
+
+//************Operations****************//
+
+let value = 3;
+let negValue = -value;
+console.log(negValue);
+
+//Arithmatic Operations
+
+console.log(1 + 2);
+console.log(2 - 2);
+console.log(5/2);
+console.log(5*2);
+console.log(5**2); //returns power
+console.log(5%2);
+
+//pre-increment
+let kills = 1;
+++kills;
+console.log(kills);
+
+//post-increment
+let life = 1;
+life++;
+console.log(life);
